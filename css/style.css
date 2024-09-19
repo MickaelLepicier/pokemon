@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    color: white;
+    background-image:url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    background-color: blue;
+    color: gold;
+    width: 20%;
+    margin: auto;
+  
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.pokemons-balls{
+    background-color: red;
+    color: white;
+    width: 30%;
+    margin: 2% auto 0%;
+    border-radius: 10px 10px 0px 0px ;
+    border-bottom: 1px solid blue;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.pokemons-balls span{
+    color: blue;
+}
+
+.pokemons-collected{
+    background-color: red;
+    color: white;
+    width: 30%;
+    margin:  auto ;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.pokemons-collected span{
+    color: blue;
+}
+
+table{
+    margin: auto;
+    background-color: black;
+    padding: 0.3%;
+    border-radius: 10px;
+}
+
+.cell {
+    width: 55px;
+    height: 55px;
+    text-align: center;
+}
+
+.cell img {
+     width: 80%;
+    height: auto;
+}
+
+.floor {
+    background-color: gray;
+}
+
+.wall {
+    background-color: rgb(41, 41, 236);
+}
+
+
+.pokemons-around-you{
+    background-color: red;
+    color: white;
+    width: 30%;
+    margin: 0% auto 3%;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.hidden{
+    display: none;
+}

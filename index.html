@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pokemon!</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="#" />
+  </head>
+
+  <body onkeyup="onKey(event)" onload="onInitGame()">
+    <h1>Catch Them All!</h1>
+    <h2 class="pokemons-balls">Total Pokemons on the field: <span>0</span></h2>
+    <h3 class="pokemons-collected">Pokemons collected: <span>0</span></h3>
+
+    <table>
+      <tbody class="board"></tbody>
+    </table>
+    <h2 class="pokemons-around-you">Pokemons around you: <span>0</span></h2>
+    <button class="restart-btn hidden" onclick="onInitGame()">Restart</button>
+    <script src="js/util.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
